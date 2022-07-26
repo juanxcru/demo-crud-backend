@@ -12,7 +12,7 @@ import org.springframework.stereotype.Repository;
  * @author Juan Cruz
  */
 @Repository
-public interface UsuarioRepo extends JpaRepository<Usuario, Integer> { // Integer. no int
+public interface UsuarioRepo extends JpaRepository<Usuario, Integer> { // Integer. no int. le pasamos la clase (tipo) de la tabla y el tipo del id (no primitivo)
     
     //Jparepository nos da los metodos heredados de pagingandsorting y crud (repo)
     

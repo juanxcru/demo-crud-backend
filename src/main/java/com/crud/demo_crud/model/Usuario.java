@@ -37,12 +37,12 @@ public class Usuario {
     public Usuario() {
     }
 
-    public Usuario(String nombre, String apellido, String email, int edad, int id) {
+    public Usuario(String nombre, String apellido, String email, int edad) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.email = email;
         this.edad = edad;
-        this.id = id;
+        
     }
 
     public int getId() {

@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.ResponseStatus;
  except para cuando no se encuentra (value = HttpStatus.NOT_FOUND)
  */
 @ResponseStatus (value = HttpStatus.NOT_FOUND)
-public class ResourseNotFoundExceptcion extends RuntimeException{
+public class ResourceNotFoundException extends RuntimeException{
 
-    public ResourseNotFoundExceptcion(String msg) {
+    public ResourceNotFoundException(String msg) {
         super(msg);
     }
     
